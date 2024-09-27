@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          key-value: classpath:simple.pub
+
+  application:
+    name: resource_server
+
+
